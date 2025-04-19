@@ -1,5 +1,5 @@
-# Class-balanced-loss-pytorch
-Pytorch implementation of the paper
+# Class balanced Loss
+Object-Oriented Pytorch implementation version of the paper
 [Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555) presented at CVPR'19.
 
 
@@ -30,3 +30,4 @@ Visualisation for effective number of samples
 ## References
 
 [official tensorflow implementation](https://github.com/richardaecn/class-balanced-loss)
+[PyTorch functional implementation version](https://github.com/vandit15/Class-balanced-loss-pytorch)
