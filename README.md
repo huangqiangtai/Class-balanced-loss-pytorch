@@ -29,5 +29,6 @@ Visualisation for effective number of samples
 
 ## References
 
-[official tensorflow implementation](https://github.com/richardaecn/class-balanced-loss)
+[official tensorflow implementation version](https://github.com/richardaecn/class-balanced-loss)
+
 [PyTorch functional implementation version](https://github.com/vandit15/Class-balanced-loss-pytorch)
