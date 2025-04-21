@@ -40,7 +40,7 @@ class FocalLoss(nn.Module):
               focal_loss: A float32 scalar representing normalized total loss.
             """
         BCLoss = F.binary_cross_entropy_with_logits(input=logits, target=labels, reduction="none")
-        if gamma == 0.0:
+        if self.gamma == 0.0:
             modulator = 1.0
         else:
             modulator = torch.exp(-self.gamma * labels * logits - self.gamma * torch.log(1 +
